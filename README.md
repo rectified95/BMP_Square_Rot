@@ -10,7 +10,6 @@ The program has been tested with GCC on Ubuntu 14.04 and TDM-GCC Windows 10.
 
 # Biuld instructions
 
-(Windows)
 
 gcc -m32 -c bm_rot.c
 
