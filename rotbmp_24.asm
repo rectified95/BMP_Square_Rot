@@ -3,7 +3,7 @@ global _rotbmp24
 ;define parameters' addresses
 %define     img         [ebp+8]     ;pointer to bmp image   
 %define     tmp         [ebp+12]    ;destination buffer
-%define     width 		[ebp+16]   
+%define     width       [ebp+16]   
 
 
 _rotbmp24:
