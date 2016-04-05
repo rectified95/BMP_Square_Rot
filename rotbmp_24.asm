@@ -23,7 +23,7 @@ _rotbmp24:
 
 	;get padding size
 	mov 	edx, ebx
-	sub		edx, eax			   
+	sub     edx, eax			   
 	bswap 	ecx                    ;trick to use  the upper half of register
 	mov 	cl, dl                 ;store padding in upper part of ecx
 	bswap 	ecx
